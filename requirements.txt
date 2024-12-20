@@ -3,3 +3,5 @@ moviepy
 SpeechRecognition
 speechrecognition
 moviepy[ffmpeg]
+imageio[ffmpeg]
+imageio
