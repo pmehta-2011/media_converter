@@ -8,7 +8,7 @@ st.title("MEDIA Converter")
 
 uploaded_video = st.file_uploader("Upload a Video File", type=["mp4", "mkv", "avi", "mov"])
 
-trim_range = st.slider("Select the range of seconds to keep:", 0, 300, (10, 60))
+trim_range = st.slider("Select the range of seconds to keep:", 0, 300, (5, 30))
 
 audio_folder = "audio"
 os.makedirs(audio_folder, exist_ok=True)
