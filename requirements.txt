@@ -1,0 +1,5 @@
+streamlit
+moviepy
+SpeechRecognition
+speechrecognition
+moviepy[ffmpeg]
